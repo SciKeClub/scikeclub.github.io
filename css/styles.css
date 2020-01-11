@@ -168,6 +168,8 @@ font-size: 20px;
     overflow: hidden;
 
 
+
+
 }
 .responsive-iframe-container iframe,
 .vresponsive-iframe-container object,
@@ -180,9 +182,7 @@ font-size: 20px;
 
 }
 
-#xtraSpc{
-  border: 1px solid blue;
-}
+
 
 
 #wwf{
@@ -325,8 +325,14 @@ font-size: 20px;
 
 }
 
-
 @media (max-width: 580px) {
+  .responsive-iframe-container {
+    padding-top: 10px;
+
+    height: 700px;
+    width: 100%;
+
+}
 
   #abtImg{
   /*  border: 2px solid blue; */
@@ -337,9 +343,7 @@ font-size: 20px;
 
 @media (max-width: 500px) {
 
-  #xtraSpc{
-    padding-bottom: 50%;
-  }
+
 
   html, body {
   overflow-x: hidden;
