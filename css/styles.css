@@ -327,10 +327,11 @@ font-size: 20px;
 
 @media (max-width: 580px) {
   .responsive-iframe-container {
-    padding-top: 10px;
+    padding-top: 30px;
 
-    height: 700px;
+    height: 800px;
     width: 100%;
+    margin-bottom: -150px;
 
 }
 
