@@ -266,6 +266,13 @@ font-size: 20px;
 
 }
 
+@media (min-width: 1920px) {
+.nav{
+  padding-left: 30%;
+}
+
+
+}
 
 
 @media (max-width: 950px) {
