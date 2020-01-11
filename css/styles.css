@@ -180,6 +180,10 @@ font-size: 20px;
 
 }
 
+#xtraSpc{
+  border: 1px solid blue;
+}
+
 
 #wwf{
   padding-top: 5px;
@@ -334,6 +338,7 @@ font-size: 20px;
 @media (max-width: 500px) {
 
 
+
   html, body {
   overflow-x: hidden;
 }
@@ -478,6 +483,10 @@ p{
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
 
+#xtraSpc{
+  padding-bottom: 100px;
+}
+
     #abtImg img{
       width: 500px;
     }
@@ -493,5 +502,7 @@ p{
       text-align: center;
       border: nonenone;
     }
+
+
 
 }
